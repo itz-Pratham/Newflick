@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+#nav{
+list-style:none inside;
+width:15%;
+margin:0;
+padding:0;
+text-align:center;
+}
+nav li{
+display:block;
+position:relative;
+float:left;
+background:red;
+}
+#nav li a{
+display:block;
+padding:0;
+text-decoration:none;
+width:200px;
+line-height:35px;
+color:white;
+}
+#nav li li a{
+font-size:80%;}
+#nav li:hover{
+background:red;}
+#nav ul{
+position:absolute;
+padding:0;
+left:0;
+display:none;
+}
+#nav li:hover ul ul{
+display:none;
+}
+#nav li:hover ul{
+display:block;}
+#nav li li:hover ul{
+ display:block;
+margin-left:200px;
+margin-top:-35px;}
+</style>
+</head>
+<body bgcolor="black">
+<ul id="nav">
+<li><a href="#"><b>CATEGORIES</b></a>
+<ul>
+<li><a href="#"><b>Movies>></b></a>
+<ul>
+<li><a href="#"><b>Action</b></a></li>
+<li><a href="#"><b>Comedy</b></a></li>
+<li><a href="#"><b>Fantasy</b></a></li>
+<li><a href="#"><b>Horror</b></a></li>
+<li><a href="#"><b>Romance</b></a></li>
+</ul>
+</li>
+<li><a href="#"><b>tv shows>></b></a>
+<ul>
+<li><a href="#"><b>Action</b></a></li>
+<li><a href="#"><b>Comedy</b></a></li>
+<li><a href="#"><b>Fantasy</b></a></li>
+<li><a href="#"><b>Horror</b></a></li>
+<li><a href="#"><b>Romance</b></a></li>
+</ul>
+</li>
+</ul>
+</body>
+</html>
