@@ -14,7 +14,7 @@ body {
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-
+  display: inline-block;
   
   }
 ul {
